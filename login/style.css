@@ -1,0 +1,255 @@
+body {
+    background-color: rgb(91, 36, 36);
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    background-color: #994939;
+    width: 80%;
+    height: 50%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.lefiside {
+    height: 80%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sesions {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo {
+    font-size: 55px;
+}
+
+.ejemplodireccion {
+    font-size: 16px;body {
+    background-color: rgb(104, 56, 56);
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    background-color: #C67A7A;
+    width: 80%;
+    height: 50%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.lefiside, .rightside {
+    height: 80%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.sesions {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffd581;
+}
+
+input {
+    height: 10%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.buttons {
+    width: 91%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+}
+
+.credenciales {
+    width: 91%;
+    height: 10%;
+    color: rgb(99, 99, 228);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+button {
+    width: 30%;
+    height: 65%;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.cuenta {
+    color: rgb(109, 109, 233);
+    background-color: white;
+    font-weight: bold;
+}
+
+.cuenta:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.siguiente {
+    background-color: #C67A7A;
+    color: white;
+    font-weight: bold;
+}
+
+.siguiente:hover {
+    background-color: rgb(85, 85, 192);
+}
+
+.menuayuda {
+    width: 80%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1%;
+}
+
+.menuayuda button {
+    width: 8%;
+}
+
+.menuayuda button:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+}
+
+.rightside {
+    height: 80%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2%;
+}
+
+input {
+    height: 10%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.buttons {
+    width: 91%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+}
+
+.invitado {
+    width: 91%;
+    height: 10%;
+}
+
+.credenciales {
+    width: 91%;
+    height: 10%;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+button {
+    width: 30%;
+    height: 65%;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.cuenta {
+    color: rgb(91, 36, 36);
+    background-color: white;
+    font-weight: bold;
+}
+
+.cuenta:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.siguiente {
+    background-color: rgb(91, 36, 36);
+    color: white;
+    font-weight: bold;
+}
+
+.siguiente:hover {
+    background-color: rgb(112, 56, 56);
+}
+
+.menuayuda {
+    width: 80%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1%;
+}
+
+.menuayuda button {
+    width: 8%;
+}
+
+.menuayuda button:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.letrasCorrContr
+{
+    color: white;
+    font-weight: bolder;
+}
