@@ -2,7 +2,7 @@ body
 {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(104, 56, 56);
+    background-color: rgb(117, 71, 46);
     color: white;
 
 }
@@ -17,7 +17,7 @@ li
 {
     padding-top: 10px;
     list-style-type: none;
-    background-color: rgb(61, 20, 20);
+    background-color: rgb(85, 37, 12);
     width: 400px;
     height: 40px;
     text-align: center;
@@ -27,21 +27,24 @@ li
     width: 95%;
     height: 300px;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.703);
+    background-color: rgba(216, 130, 65, 0.428);
     margin-left: 2%;
-    margin-top: -10px;
-    box-shadow: 2px 2px 2px black;
+    margin-top: 40px;
+    box-shadow: 5px 5px 22px 1px rgb(68, 33, 9);
 }
 main
 {
+    padding-top: 30px;
     margin-top: 20px;
     margin-left: 20px;
     width: 500px;
-    background-color: red;
+    font-size: larger;
 }
-aside
+aside img
 {
-    width: 300px;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
     background-color: blueviolet;
     float: right;
     margin-top: 20px;
