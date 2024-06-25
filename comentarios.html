@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="comentarios_style.css">
+	<title></title>
+</head>
+<body>
+	<div>
+		<!-- Esta parte es para insertar un comentario -->
+		<form method="post" id="insertarcomentario">
+			<!-- Esto es una etiqueta -->
+			<p><b>Inserta un comentario, oniichan uwu:</b></p>
+				<!-- Aquí va el nombre -->
+	        <label for="nombre">Nombre:</label><br>
+	        <input type="text" id="nombre" name="nombre" required><br><br>
+	        <!-- Aquí va el correo -->
+	        <label for="email">Correo electrónico:</label><br>
+	        <input type="email" id="email" name="email" required><br><br>
+	        <!-- Aquí es para escribir un comentario -->
+	        <label for="comentario">Comentario:</label><br>
+	        <textarea id="comentario" name="comentario" required></textarea><br><br>
+	        <!-- esto es para poner una puntuación del 1 al 5, son las bolitas -->
+	        <div>
+	            <input type="radio" id="puntuacion1" name="puntuacion" value="1" required>
+	            <label for="puntuacion1">1</label>
+
+	            <input type="radio" id="puntuacion2" name="puntuacion" value="2">
+	            <label for="puntuacion2">2</label>
+
+	            <input type="radio" id="puntuacion3" name="puntuacion" value="3">
+	            <label for="puntuacion3">3</label>
+
+	            <input type="radio" id="puntuacion4" name="puntuacion" value="4">
+	            <label for="puntuacion4">4</label>
+
+	            <input type="radio" id="puntuacion5" name="puntuacion" value="5">
+	            <label for="puntuacion5">5</label><br><br>
+	        </div>
+
+	        <button type="submit">Enviar Comentario</button>
+	    </form>
+	<div>
+
+	<div id="comentarios">
+		<div>
+			<p><b>Muy zatisfesho con el pr0duto, 10 de 10, muh recomendavle</b><p>
+			<p>JuanPerez<p>
+			<p>Quede muh zatisfecho con el produto que me dieron, todo en fesha y ora que acuerdamos, recomiendo apliamnte este serbisio, muh vuna antesion al cliente.</p>
+		</div>
+	</div>
+</body>
+</html>
